@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 순서가 상관없는 목록 태그. ul-->
+    <h2>순서가 상관없는 목록 태그</h2>
+    <h3>화면 구현 수업 내용</h3>
+    <ul>
+         <li>HTML5</li>
+         <li>CSS</li>
+         <li>JavaScript</li>
+    </ul>
+
+    <!-- 순서가 있는 목록 태그-->
+    <h2>화면 구현 수업 내용</h2>
+    <ol>
+         <li>HTML5</li>
+         <li>CSS</li>
+         <li>JavaScript</li>
+    </ol>
+    <ol type ="i">
+         <li>HTML5</li>
+         <li>CSS</li>
+         <li>JavaScript</li>
+    </ol>
+
+    <!-- 화면 구현 수업 내용을 ol로 표현하시오.
+        이때 순서라벨은 알파벳 대문자를 사용하며, 순서라벨은 d부터 시작합니다.(D,E,F)-->
+      
+    <ol type ="A" start = "4">
+         <li>HTML5</li>
+         <li>CSS</li>
+         <li>JavaScript</li>
+    </ol>
+
+    <!-- 설명 목록 태그
+        설명 목록 : dl
+        항목에 대한 제목 : dt
+        항목에 대한 설명 : dd
+    -->
+    <dl>
+        <dt>html</dt>
+        <dd>Hyper text Markup language, 웹 컨텐츠의 의미와 구조를 정의할 때 사용된다.</dd>
+        <dt>css</dt>
+        <dd>웹페이지의 외형과 표현을 서술할때 사용된다.</dd>
+    </dl>
+
+    <h2>목록 중첩시켜서 사용해보기</h2>
+    <ul>
+        <li>프로그래밍언어</li>
+        <li>데이터베이스</li>
+        <li>화면구현
+            <ol type ="A" start = "4">
+                <li>HTML5
+                    <dl>
+                        <dt>html</dt>
+                        <dd>Hyper text Markup language, 웹 컨텐츠의 의미와 구조를 정의할 때 사용된다.</dd>
+                    </dl>
+                </li>
+                <li>CSS
+                    <dl>
+                        <dt>css</dt>
+                        <dd>웹페이지의 외형과 표현을 서술할때 사용된다.</dd>
+                    </dl>
+                </li>
+                <li>JavaScript</li>
+            </ol>
+        </li>
+    </ul>
+
+    <hr> <!-- 줄바꿈하면서 수평선 생성-->
+
+    <ul>
+        <li>프로그래밍 언어</li>
+            <ul>
+              <li><s> Java</s></li>  
+            </ul>
+        <li>데이터베이스</li>
+            <ul>
+              <li><s>MySQL</s></li>   
+             </ul>
+        <li>화면구현</li>
+            <ol>
+                <li><mark>HTML5</mark></li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>JQuery</li>
+            </ol>
+        <li>서버 개발 기술</li>
+            </ol>
+            <ol type ="i">
+                <li><s>JDBC</s></li>
+                <li>Mybatis</li>
+                <li>JSP</li>
+                <li>Spring</li>
+            </ol>
+        <li>프레임 워크</li>
+            </ol>
+            <ol type ="a">
+                <li><b>Spring</b></li>
+                <li>MyBatis</li>
+            </ol>
+   </ul>
+
+
+
+
+
+
+</body>
+</html>
